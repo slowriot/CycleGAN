@@ -20,7 +20,7 @@ function PlotUtil:Initialize(display_plot, display_id, name)
 
   self.plot_config = {
     title = name .. ' loss over time',
-    labels = {'epoch', unpack(self.display_plot)},
+    labels = {'epoch', table.unpack(self.display_plot)},
     ylabel = 'loss',
     win  = display_id,
   }
