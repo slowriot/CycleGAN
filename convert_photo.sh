@@ -48,7 +48,7 @@ else
 fi
 
 if [ "$3" = "--verbose" ]; then
-  vebrose=true
+  verbose=true
 else
   verbose=false
 fi
